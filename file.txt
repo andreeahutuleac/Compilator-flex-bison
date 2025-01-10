@@ -1,0 +1,51 @@
+int a=5;
+float b=9.8f; //variabila float initializata si declarata
+//comentariu
+double c;
+/*comentariu linii multiple 
+a doua linie
+print a;*/
+print("a=");
+print a;
+print("Valoarea variabilei b=");
+print b;
+print("Valoarea variabilei a dupa cast a=");
+a=(int)b;
+print a;
+float v=1265.98f;
+print("Valoarea variabilei float var=");
+print v;
+int x = (int)v;
+print x;
+scan c;
+print c;
+print("b=");
+print b;
+print("a+b=");
+a=a+b;
+print a; 
+print("(a+b)*2=");
+a=(a+b)*2;
+print a;
+print("c/a=");
+c=c/a;
+print c;
+print("BLOC DE COD:");
+{ 
+  int z=2;
+  double t=2.4;
+  print("z=");
+  print z;
+  print("t+z=");
+  t=t+z;
+  print t;
+};
+int d = 0;
+if (d == 0)
+{
+    print("Eroare: Împărțire la zero!");
+    print d;
+}else
+{ 
+    a = a / d;
+}
